@@ -59,6 +59,7 @@
             // 
             // txtnum1
             // 
+            this.txtnum1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtnum1.Location = new System.Drawing.Point(87, 65);
             this.txtnum1.Name = "txtnum1";
             this.txtnum1.Size = new System.Drawing.Size(81, 20);
@@ -66,6 +67,7 @@
             // 
             // txtnum2
             // 
+            this.txtnum2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtnum2.Location = new System.Drawing.Point(225, 65);
             this.txtnum2.Name = "txtnum2";
             this.txtnum2.Size = new System.Drawing.Size(74, 20);
@@ -73,48 +75,58 @@
             // 
             // btnSuma
             // 
+            this.btnSuma.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSuma.Location = new System.Drawing.Point(43, 128);
             this.btnSuma.Name = "btnSuma";
             this.btnSuma.Size = new System.Drawing.Size(53, 23);
             this.btnSuma.TabIndex = 4;
             this.btnSuma.Text = "Suma";
-            this.btnSuma.UseVisualStyleBackColor = true;
+            this.btnSuma.UseVisualStyleBackColor = false;
+            this.btnSuma.Click += new System.EventHandler(this.btnSuma_Click);
             // 
             // btnResta
             // 
+            this.btnResta.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnResta.Location = new System.Drawing.Point(100, 128);
             this.btnResta.Name = "btnResta";
             this.btnResta.Size = new System.Drawing.Size(53, 23);
             this.btnResta.TabIndex = 5;
             this.btnResta.Text = "Resta";
-            this.btnResta.UseVisualStyleBackColor = true;
+            this.btnResta.UseVisualStyleBackColor = false;
+            this.btnResta.Click += new System.EventHandler(this.btnResta_Click);
             // 
             // btnMulti
             // 
+            this.btnMulti.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnMulti.Location = new System.Drawing.Point(159, 128);
             this.btnMulti.Name = "btnMulti";
             this.btnMulti.Size = new System.Drawing.Size(69, 23);
             this.btnMulti.TabIndex = 6;
             this.btnMulti.Text = "Multiplicar";
-            this.btnMulti.UseVisualStyleBackColor = true;
+            this.btnMulti.UseVisualStyleBackColor = false;
+            this.btnMulti.Click += new System.EventHandler(this.btnMulti_Click);
             // 
             // btnDivi
             // 
+            this.btnDivi.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDivi.Location = new System.Drawing.Point(234, 128);
             this.btnDivi.Name = "btnDivi";
             this.btnDivi.Size = new System.Drawing.Size(53, 23);
             this.btnDivi.TabIndex = 7;
             this.btnDivi.Text = "Dividir";
-            this.btnDivi.UseVisualStyleBackColor = true;
+            this.btnDivi.UseVisualStyleBackColor = false;
+            this.btnDivi.Click += new System.EventHandler(this.btnDivi_Click);
             // 
             // btnResiduo
             // 
+            this.btnResiduo.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnResiduo.Location = new System.Drawing.Point(293, 128);
             this.btnResiduo.Name = "btnResiduo";
             this.btnResiduo.Size = new System.Drawing.Size(58, 23);
             this.btnResiduo.TabIndex = 8;
             this.btnResiduo.Text = "Residuo";
-            this.btnResiduo.UseVisualStyleBackColor = true;
+            this.btnResiduo.UseVisualStyleBackColor = false;
+            this.btnResiduo.Click += new System.EventHandler(this.btnResiduo_Click);
             // 
             // Form1
             // 
