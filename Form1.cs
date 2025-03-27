@@ -52,5 +52,11 @@ namespace Calculadora
             int num2 = Convert.ToInt32(txtnum2.Text);
             MessageBox.Show($"Residuo:{num1 % num2}");
         }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            txtnum1.Text = "";
+            txtnum2.Text = "";
+        }
     }
 }

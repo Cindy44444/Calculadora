@@ -37,6 +37,7 @@
             this.btnMulti = new System.Windows.Forms.Button();
             this.btnDivi = new System.Windows.Forms.Button();
             this.btnResiduo = new System.Windows.Forms.Button();
+            this.btnBorrar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lanum1
@@ -128,11 +129,23 @@
             this.btnResiduo.UseVisualStyleBackColor = false;
             this.btnResiduo.Click += new System.EventHandler(this.btnResiduo_Click);
             // 
+            // btnBorrar
+            // 
+            this.btnBorrar.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnBorrar.Location = new System.Drawing.Point(159, 193);
+            this.btnBorrar.Name = "btnBorrar";
+            this.btnBorrar.Size = new System.Drawing.Size(69, 23);
+            this.btnBorrar.TabIndex = 9;
+            this.btnBorrar.Text = "Borrar";
+            this.btnBorrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(392, 299);
+            this.Controls.Add(this.btnBorrar);
             this.Controls.Add(this.btnResiduo);
             this.Controls.Add(this.btnDivi);
             this.Controls.Add(this.btnMulti);
@@ -160,6 +173,7 @@
         private System.Windows.Forms.Button btnMulti;
         private System.Windows.Forms.Button btnDivi;
         private System.Windows.Forms.Button btnResiduo;
+        private System.Windows.Forms.Button btnBorrar;
     }
 }
 
